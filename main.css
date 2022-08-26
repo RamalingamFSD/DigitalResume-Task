@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Readex Pro';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background-color: #000;            
+}
+
+p, span, li{
+    color: #adb0b1;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(30, 190,214);
+    font-weight: 500;
+}
+
+li{
+    line-height: 1.9em;
+}
+
+#container--main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.section--page{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+/* For name style */
+#user-name{
+    font-size: 48px;
+    line-height: 1em;
+}
+/* For profile style */
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* For logo style */
+.logo{
+    width:250px;
+    height:80px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+/* For Skill bullet none style */
+#qualifications--list{
+    list-style: none;
+}
+
+.exp{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.name{
+    margin-top: 1em;
+   }
+.email{
+    margin-top: 1em;
+   
+}
+.message{
+    margin-top: 1em;
+    }
+.btn{
+    color: #adb0b1;
+    background-color: brown;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+#domain{
+    margin-top: 0;
+}
+@media(max-width:600px){
+
+    .section--page{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #wrapper--hero{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+
+      #wrapper--hero{
+        flex-direction: column;
+    }
+  
+}
